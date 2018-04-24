@@ -1,6 +1,6 @@
 # react-and-firebase-todolist
 
-flow : 
+Follow :
 
 #A
 
