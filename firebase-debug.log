@@ -1,0 +1,294 @@
+[debug] [2018-04-23T14:37:17.112Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T14:37:17.115Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T14:37:17.115Z] CLI Version:   3.18.4
+[debug] [2018-04-23T14:37:17.115Z] Platform:      darwin
+[debug] [2018-04-23T14:37:17.115Z] Node Version:  v8.11.1
+[debug] [2018-04-23T14:37:17.116Z] Time:          Mon Apr 23 2018 16:37:17 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:17.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T14:37:17.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T14:37:17.125Z] > authorizing via signed-in user
+[debug] [2018-04-23T14:37:17.127Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-23T14:37:17.127Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/rGp-pFNPFZhlSKosOtP-tnngkgVcO_ROp_W0HdYKWg0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 23 2018 16:37:17 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:18.262Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T14:37:18.279Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 16:37:18 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:18.965Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T14:37:18.966Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 16:37:18 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:19.521Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T14:37:19.522Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 16:37:19 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:20.421Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T14:37:20.424Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 16:37:20 GMT+0200 (CEST)
+[debug] [2018-04-23T14:37:20.833Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-23T14:38:12.116Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T14:38:12.118Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T14:38:12.118Z] CLI Version:   3.18.4
+[debug] [2018-04-23T14:38:12.118Z] Platform:      darwin
+[debug] [2018-04-23T14:38:12.118Z] Node Version:  v8.11.1
+[debug] [2018-04-23T14:38:12.119Z] Time:          Mon Apr 23 2018 16:38:12 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:12.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T14:38:12.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T14:38:12.128Z] > authorizing via signed-in user
+[debug] [2018-04-23T14:38:12.131Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 16:38:12 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:12.742Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T14:38:12.743Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 16:38:12 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:13.226Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T14:38:13.227Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 16:38:13 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:14.182Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T14:38:14.185Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 16:38:14 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:14.842Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-23T14:38:14.859Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 16:38:14 GMT+0200 (CEST)
+[debug] [2018-04-23T14:38:24.047Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5004
+
+[debug] [2018-04-23T15:01:06.777Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T15:01:06.779Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T15:01:06.779Z] CLI Version:   3.18.4
+[debug] [2018-04-23T15:01:06.779Z] Platform:      darwin
+[debug] [2018-04-23T15:01:06.779Z] Node Version:  v8.11.1
+[debug] [2018-04-23T15:01:06.780Z] Time:          Mon Apr 23 2018 17:01:06 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:06.780Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T15:01:06.789Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T15:01:06.789Z] > authorizing via signed-in user
+[debug] [2018-04-23T15:01:06.791Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 17:01:06 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:07.517Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T15:01:07.518Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 17:01:07 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:08.607Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T15:01:08.608Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 17:01:08 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:09.529Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T15:01:09.531Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 17:01:09 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:10.146Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-23T15:01:10.162Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 17:01:10 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:10.506Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-23T15:01:10.509Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 17:01:10 GMT+0200 (CEST)
+[debug] [2018-04-23T15:01:10.954Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5008
+
+[debug] [2018-04-23T20:38:35.974Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T20:38:35.976Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T20:38:35.976Z] CLI Version:   3.18.4
+[debug] [2018-04-23T20:38:35.977Z] Platform:      darwin
+[debug] [2018-04-23T20:38:35.977Z] Node Version:  v8.11.1
+[debug] [2018-04-23T20:38:35.977Z] Time:          Mon Apr 23 2018 22:38:35 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:35.977Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T20:38:35.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T20:38:35.988Z] > authorizing via signed-in user
+[debug] [2018-04-23T20:38:35.990Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-23T20:38:35.990Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/rGp-pFNPFZhlSKosOtP-tnngkgVcO_ROp_W0HdYKWg0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 23 2018 22:38:35 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:36.104Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T20:38:36.120Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 22:38:36 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:36.769Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T20:38:36.770Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 22:38:36 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:37.921Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T20:38:37.922Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 22:38:37 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:38.842Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T20:38:38.844Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:38:38 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:39.458Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-23T20:38:39.480Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:38:39 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:39.806Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-23T20:38:39.809Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:38:39 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:40.366Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-23T20:38:40.368Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:38:40 GMT+0200 (CEST)
+[debug] [2018-04-23T20:38:40.993Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5012
+
+[debug] [2018-04-23T20:59:20.855Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T20:59:20.857Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T20:59:20.857Z] CLI Version:   3.18.4
+[debug] [2018-04-23T20:59:20.857Z] Platform:      darwin
+[debug] [2018-04-23T20:59:20.857Z] Node Version:  v8.11.1
+[debug] [2018-04-23T20:59:20.858Z] Time:          Mon Apr 23 2018 22:59:20 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:20.858Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T20:59:20.867Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T20:59:20.867Z] > authorizing via signed-in user
+[debug] [2018-04-23T20:59:20.869Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 22:59:20 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:21.553Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T20:59:21.554Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 22:59:21 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:22.377Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T20:59:22.378Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 22:59:22 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:23.034Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T20:59:23.035Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:59:23 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:23.620Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-23T20:59:23.635Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:59:23 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:24.527Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-23T20:59:24.530Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:59:24 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:24.924Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-23T20:59:24.927Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:59:24 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:25.756Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-04-23T20:59:25.759Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 22:59:25 GMT+0200 (CEST)
+[debug] [2018-04-23T20:59:26.348Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5016
+
+[debug] [2018-04-23T21:50:59.579Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T21:50:59.582Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-23T21:50:59.582Z] CLI Version:   3.18.4
+[debug] [2018-04-23T21:50:59.582Z] Platform:      darwin
+[debug] [2018-04-23T21:50:59.582Z] Node Version:  v8.11.1
+[debug] [2018-04-23T21:50:59.583Z] Time:          Mon Apr 23 2018 23:50:59 GMT+0200 (CEST)
+[debug] [2018-04-23T21:50:59.583Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T21:50:59.593Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T21:50:59.593Z] > authorizing via signed-in user
+[debug] [2018-04-23T21:50:59.595Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-23T21:50:59.595Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/rGp-pFNPFZhlSKosOtP-tnngkgVcO_ROp_W0HdYKWg0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 23 2018 23:50:59 GMT+0200 (CEST)
+[debug] [2018-04-23T21:50:59.687Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T21:50:59.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 23:50:59 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:01.323Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T21:51:01.324Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-app-351dd/tokens  
+  
+ Mon Apr 23 2018 23:51:01 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:01.826Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T21:51:01.827Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-351dd  
+  
+ Mon Apr 23 2018 23:51:01 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:02.464Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teddyghim/development/react/react-with-firebase'...
+[info] 
+[debug] [2018-04-23T21:51:02.467Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:02 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:02.785Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-23T21:51:02.809Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:02 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:03.278Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-23T21:51:03.282Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:03 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:03.609Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-23T21:51:03.613Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:03 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:04.200Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-04-23T21:51:04.203Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:04 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:04.814Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5016 is not available. Trying another port...
+[debug] [2018-04-23T21:51:04.817Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/875586016840/clients/_:getWebAppConfig  
+  
+ Mon Apr 23 2018 23:51:04 GMT+0200 (CEST)
+[debug] [2018-04-23T21:51:05.428Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5020
+
